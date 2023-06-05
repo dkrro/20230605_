@@ -1,0 +1,51 @@
+.section{
+    transition-duration: 5s;
+    width: 100%;
+    height: 980px;
+    margin:0 ;
+    padding: 0;
+    top: 0;
+    left: 0;
+    }
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-image: url("back.png"); */
+    }
+
+
+    .menu_btn{
+        left: 0px;
+        top: 100px;
+        position: fixed;
+        
+    }
+    
+    .menu_box{
+        background-color: black;
+        position: fixed;
+        width: 300px;
+        color: white;
+        height: 100vh;
+        top: 0;
+        left: -300px;
+        z-index: 10;
+    }
+    
+
+    .back{
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        padding: 0px;
+        margin: 0px;
+        z-index: 1;
+    }
+    
+.notice_text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
